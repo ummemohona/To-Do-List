@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.child-div {
+  text-align: center;
+  width: 100%;
+}
+
+.child-div figure img {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.child-div figure figcaption {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  text-transform: capitalize;
+}
+
+.add_task{
+  padding: .5rem .5rem;
+  margin : 0.5rem;
+  min-width: 20rem;
+  height: 25px;
+}
+.add-btn{
+  height: 45px;
+}
+
+
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+  padding: .5rem .5rem;
+  margin : 0.5rem;
+  min-width: 9.5rem;
+  height: 25px;
+  word-break: break-word;
+  background: rgb(85, 41, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachItem:hover {
+  background: rgb(249, 249, 252);
+  color: rgb(85, 41, 220);
+}
+
+.showItems .eachItem h5 {
+  margin: 0;
+  color: #fff;
+  padding: 0;
+}
+
+.showItem .eachItem input[type="checkbox"] {
+  margin: 0;
+}
+.showItem .eachItem svg {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
